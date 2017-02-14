@@ -1,0 +1,143 @@
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background: #5f6166;
+
+
+    height: 250px;
+
+}
+
+.div-login{
+    position:absolute;
+    margin-top: 0px;
+    margin-left: 80%;
+
+}
+
+.add-cart-imagen{
+    height: 50px;
+    width: 50px;
+}
+
+.add-cart-imagen:hover{
+    background: grey;
+}
+
+.div-contendor-categorias{
+    background: #5f6166;
+    position:absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 400px;
+    height: 100%;
+}
+
+
+
+.div-tabla-categorias{
+    background: white;
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #756d75;
+    -webkit-box-shadow: 9px 10px 5px -6px rgba(113,120,199,0.62);
+    -moz-box-shadow: 9px 10px 5px -6px rgba(113,120,199,0.62);
+    box-shadow: 9px 10px 5px -6px rgba(113,120,199,0.62);
+
+    width: 250px;
+    margin-left: 15%;
+    margin-top: 50px;;
+    font-size: 25px;
+}
+
+.div-resultados{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 50px;
+
+
+}
+
+.div-articulos{
+
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #756d75;
+    -webkit-box-shadow: 9px 10px 5px -6px rgba(113,120,199,0.62);
+    -moz-box-shadow: 9px 10px 5px -6px rgba(113,120,199,0.62);
+    box-shadow: 9px 10px 5px -6px rgba(113,120,199,0.62);
+
+}
+
+.tb-articulos{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.tb-articulos tr td{
+    font-size: 25px;  
+}
+
+.tb-categorias{
+    text-align: left;
+    width: 100%;
+}
+
+.tb-categorias tr:hover{
+    background: #8c8cb8;
+}
+
+.tb-resultado-carrito #celda-imagen-carrito{
+    width: 100px;
+    height: 100px;
+}
+
+.tb-resultado-carrito #celda-descripcion-carrito{
+    width: 400px;
+}
+
+.tb-resultado-carrito tr td{
+    text-align: center;
+}
+.tb-resultado-carrito #celda-cantidad-carrito{
+    width:200px;
+    text-align: center;
+}
+
+.tb-resultado-carrito #celda-cantidad-carrito{
+    width:200px;
+    text-align: center;
+}
+
+
+.carrito-icono-borrar{
+    width: 40px;
+    height: 40px;
+}
+.carrito-icono-agregar{
+    width: 40px;
+    height: 40px;
+}
+.carrito-icono-eliminar{
+    width: 40px;
+    height: 40px;
+}
+
+.carrito-icono-agregar:hover{
+    background: grey;
+}
+.carrito-icono-borrar:hover{
+    background: grey;
+}
+.carrito-icono-eliminar:hover{
+    background: grey;
+}
